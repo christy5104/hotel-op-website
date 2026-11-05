@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hotel OP in Ibadan to plan your stay or ask a question.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Contact | Hotel OP</title>
+</head>
+
+<body class="inner-page contact-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="inner-header">
+        <nav class="inner-nav" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Hotel OP home"><span class="brand-mark">OP</span><span class="brand-name">HOTEL <b>OP</b></span></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Our story</a></li>
+                <li><a href="index.html#experience">The experience</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+            <a class="nav-cta" href="#inquiry">Send an inquiry <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="contact-heading">
+            <div class="section-kicker"><span>01</span><span class="kicker-rule"></span><span>WE’RE HERE TO HELP</span></div>
+            <h1>Let’s plan your<br><em>time in Ibadan.</em></h1>
+            <p>Have a question or ready to plan your stay? Send us a note or reach out directly.</p>
+        </section>
+
+        <section class="contact-main" id="inquiry" aria-label="Contact Hotel OP">
+            <div class="contact-details">
+                <div class="contact-detail">
+                    <span class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></span>
+                    <div><h2>Call us</h2><a href="tel:+222222333">+222 222 333</a></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+                    <div><h2>Find us</h2><p>112 Oluyole Avenue<br>Ibadan, Oyo State</p></div>
+                </div>
+                <div class="contact-detail">
+                    <span class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></span>
+                    <div><h2>Email us</h2><a href="mailto:peterchristopher277@gmail.com">peterchristopher277@gmail.com</a></div>
+                </div>
+            </div>
+
+            <form class="inquiry-form" action="https://formsubmit.co/peterchristopher277@gmail.com" method="post">
+                <input type="hidden" name="_subject" value="New Hotel OP website inquiry">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="form-honeypot">
+                <p class="form-eyebrow">A NOTE TO OUR TEAM</p>
+                <h2>How can we help?</h2>
+                <label for="guest-name">Your name</label>
+                <input id="guest-name" name="name" type="text" autocomplete="name" placeholder="Name" required>
+                <label for="guest-email">Email address</label>
+                <input id="guest-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                <label for="guest-message">Your message</label>
+                <textarea id="guest-message" name="message" rows="4" placeholder="Tell us a little about your plans" required></textarea>
+                <button class="button button-dark" type="submit">Send inquiry <span aria-hidden="true">↗</span></button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer inner-footer">
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">OP</span><span class="brand-name">HOTEL <b>OP</b></span></a>
+        <p>Ibadan, Oyo State, Nigeria</p>
+        <a href="contact.html">Get in touch <span aria-hidden="true">↗</span></a>
+        <small>© 2026 Hotel OP. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>
